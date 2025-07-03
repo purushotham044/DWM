@@ -29,3 +29,32 @@ A **cross-platform, lightweight dark web monitoring tool** to help you **track c
 ```bash
 git clone https://github.com/purushotham044/DWM.git
 cd DWM
+2️⃣ Install Dependencies
+If your repo has:
+
+requirements.txt:
+
+pip install -r requirements.txt
+or setup.sh:
+
+chmod +x setup.sh
+./setup.sh
+3️⃣ Run the Tool
+Check your README or your main Python file:
+
+If it’s main.py:
+
+python main.py
+or whatever your startup file is.
+
+4️⃣ Additional Steps (if needed)
+If the project uses environment variables (.env), set them:
+
+export VARIABLE=value
+If it needs tor for dark web scraping, ensure tor is installed:
+
+sudo apt install tor
+and started:
+
+sudo service tor start
+
